@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if (btnFala != null) {
-            btnFala.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, TtsSttActivity.class)));
+            btnFala.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, FalaActivity.class)));
         }
     }
 }

@@ -17,7 +17,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 import java.util.Locale;
 
-public class TtsSttActivity extends AppCompatActivity implements TextToSpeech.OnInitListener {
+public class FalaActivity extends AppCompatActivity implements TextToSpeech.OnInitListener {
     private TextToSpeech textToSpeech;
     private EditText editTextToSpeak;
     private TextView textResult;
@@ -27,7 +27,7 @@ public class TtsSttActivity extends AppCompatActivity implements TextToSpeech.On
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tts_stt);
+        setContentView(R.layout.activity_fala);
 
         editTextToSpeak = findViewById(R.id.editTextToSpeak);
         textResult = findViewById(R.id.textResult);

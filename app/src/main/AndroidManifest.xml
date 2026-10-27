@@ -38,7 +38,7 @@
             android:exported="false" />
 
         <activity
-            android:name=".TtsSttActivity"
+            android:name=".FalaActivity"
             android:exported="false" />
 
         <activity
